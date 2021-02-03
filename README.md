@@ -1,3 +1,18 @@
-# Contemporary Issues In Data
+# Data Analytics on the database - NYC Motor Vehicle Collisions Data
 
-Welcome! Your writing assignment will be in this file.  See [the instructions](./instructions.md) for more details.
+In this document, I will discuss about the existing analysis on the database provided by NYC OpenData, which contains daily-updated information on all vehicle collisions in New York City since April 28, 2014. The following two articles present their own data analytics on this dataset from different angles. It appears interesting to me to learn about the potential patterns underlied the occurrences of motor collisions in the city.
+
+## Article 1
+The article [_Tradeoffs Between Safety and Time: A Routing View_](https://doi.org/10.1016/j.trc.2019.09.020) is written by Daniel R. Carmody and Richard B. Sowers, which is published in 2019. It suggests the analysis of the relations among travel times, distance, and number of collisions with NYC Motor Vehicle Collisions Data. It proposes one interesting insight that every increase in the overall trip time by 6% can lead to the decrease in accidents/meter by 11% as a tradeoff between trip time and collisions.
+
+This research caught my attention because, as suggested in the Section 4, Future Work by Carmody et al., with datasets from two different cities, the comparative analytics can be built for further research, and additionally, with more stationary assumptions, the study on the influence of weather over the general driving pattern can be conducted as one way to learn about the factors affecting the collisions. As the accident data by NYPD also displays the reasons and the severity for each collision, they are also two great options to study on, talked by Carmody et al. in the paper.
+
+This article mainly analyzes the factors of travel times, distance on the motor collisions in NYC and also offers possible variables contributing to the frequency of accidents. Its results are inspiring for future potential changes in transportation policies of New York City. Also, it brings other researchers insights on the directions to study on this issue to improve the condition of NYC motor collisions.
+ 
+
+## Article 2
+Another article published in 2020, which is from Chapter 11, "Applying Big Data Analytics on Motor Vehicle Collision Predictions in New York City", in the book [_Intelligent Data Analysis: From Data Gathering to Data Comprehension_](https://www.researchgate.net/publication/339876134_Intelligent_Data_Analysis_From_Data_Gathering_to_Data_Comprehension) by Abeyratne Dhanushka, Halgamuge Malka, offers further guidance on how to analyze the motor collisions pattern. Building up from the previous article, it analyzes the same database by NYPD from a different angle.
+
+In that chapter, it presents the existing data analysis over NYC vehicle collisions spanning from 2012 to 2017. It mainly discusses the highly concentrated locations in New York City where collisions happened and deducts the corresponding possible reasons. In the article, it discovers that Brooklyn is the borough that consistently has the top occurrence of collisions and injury population, no matter in the previous years from 2012 to 2017 or in the later year 2019. From this article, we can see that to improve the traffic in NYC, the government can plan more traffic forces for coordination after vehicle collisions and at intersections with high-frequency accidents in the future. Also, the traffic conditions including signs in Brooklyn can be re-examined and more traffic forces can be put in this borough.
+
+Both of these two articles offer great data analytics on the database of NYC Motor Collisions from NYPD. We can benefit from them to gain more inspections on the traffic conditions in the city from different angles.
